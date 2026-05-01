@@ -1,0 +1,12 @@
+base_config: configs/tiny.yaml
+parameterization: sp
+sweep_max_tokens: 10000000
+learning_rates:
+  - 1.0e-4
+  - 3.0e-4
+  - 1.0e-3
+  - 3.0e-3
+  - 1.0e-2
+  - 3.0e-2
+  - 1.0e-1
+output: results/sp_best_lr.json

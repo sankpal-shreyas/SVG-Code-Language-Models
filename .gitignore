@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# project artifacts
+data/cache/
+data/*.bin
+data/tokenizer.json
+results/*
+!results/.gitkeep
+!results/*.json
+report/figures/*.png
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.synctex.gz
+

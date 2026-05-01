@@ -1,0 +1,24 @@
+name: xl
+arch:
+  vocab_size: 4096
+  block_size: 1024
+  n_layer: 12
+  n_head: 12
+  d_model: 768
+  d_ff: 3072
+  dropout: 0.0
+  bias: false
+  tie_weights: false
+train:
+  batch_tokens: 65536
+  micro_batch_size: 8
+  max_tokens: 100000000
+  warmup_frac: 0.02
+  weight_decay: 0.1
+  beta1: 0.9
+  beta2: 0.95
+  grad_clip: 1.0
+  eval_interval_tokens: 2000000
+  log_interval_steps: 50
+  amp_dtype: bfloat16
+  seed: 1337
