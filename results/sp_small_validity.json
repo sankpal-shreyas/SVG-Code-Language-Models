@@ -1,0 +1,46 @@
+{
+  "n": 75,
+  "valid_xml_rate": 0.96,
+  "structural_rate": 0.8933333333333333,
+  "render_rate": 0.48,
+  "by_temperature": {
+    "all": {
+      "n": 15,
+      "valid_xml": 12,
+      "structural": 12,
+      "rendered": 10
+    },
+    "0.5": {
+      "n": 20,
+      "valid_xml": 20,
+      "structural": 20,
+      "rendered": 6
+    },
+    "0.8": {
+      "n": 20,
+      "valid_xml": 20,
+      "structural": 18,
+      "rendered": 12
+    },
+    "1.0": {
+      "n": 20,
+      "valid_xml": 20,
+      "structural": 17,
+      "rendered": 8
+    }
+  },
+  "by_kind": {
+    "prefix": {
+      "n": 15,
+      "valid_xml": 12,
+      "structural": 12,
+      "rendered": 10
+    },
+    "uncond": {
+      "n": 60,
+      "valid_xml": 60,
+      "structural": 55,
+      "rendered": 26
+    }
+  }
+}

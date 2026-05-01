@@ -1,0 +1,30 @@
+{
+  "train_tokens": 186321135,
+  "val_tokens": 1912300,
+  "test_tokens": 1919443,
+  "pack": {
+    "train": {
+      "kept": 372584,
+      "dropped_long": 9528,
+      "tokens": 186321135
+    },
+    "val": {
+      "kept": 3891,
+      "dropped_long": 83,
+      "tokens": 1912300
+    },
+    "test": {
+      "kept": 3831,
+      "dropped_long": 88,
+      "tokens": 1919443
+    }
+  },
+  "lengths": {
+    "n": 382112,
+    "mean": 551.0581007662674,
+    "median": 410.0,
+    "p95": 1551.0,
+    "p99": 2595.0,
+    "max": 6282
+  }
+}

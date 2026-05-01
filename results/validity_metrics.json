@@ -1,0 +1,51 @@
+{
+  "n": 45,
+  "valid_xml_rate": 0.022222222222222223,
+  "structural_rate": 0.022222222222222223,
+  "render_rate": 0.0,
+  "by_temperature": {
+    "all": {
+      "n": 15,
+      "valid_xml": 1,
+      "structural": 1,
+      "rendered": 0
+    },
+    "0.5": {
+      "n": 10,
+      "valid_xml": 0,
+      "structural": 0,
+      "rendered": 0
+    },
+    "0.8": {
+      "n": 10,
+      "valid_xml": 0,
+      "structural": 0,
+      "rendered": 0
+    },
+    "1.0": {
+      "n": 10,
+      "valid_xml": 0,
+      "structural": 0,
+      "rendered": 0
+    }
+  },
+  "by_kind": {
+    "prefix": {
+      "n": 15,
+      "valid_xml": 1,
+      "structural": 1,
+      "rendered": 0
+    },
+    "uncond": {
+      "n": 30,
+      "valid_xml": 0,
+      "structural": 0,
+      "rendered": 0
+    }
+  },
+  "test": {
+    "test_loss": 1.343950114250183,
+    "test_ppl": 3.834158997845652,
+    "n_batches": 200
+  }
+}
