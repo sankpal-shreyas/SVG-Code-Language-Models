@@ -1,0 +1,17 @@
+{
+  "train": {
+    "kept": 372584,
+    "dropped_long": 9528,
+    "tokens": 186321135
+  },
+  "val": {
+    "kept": 3891,
+    "dropped_long": 83,
+    "tokens": 1912300
+  },
+  "test": {
+    "kept": 3831,
+    "dropped_long": 88,
+    "tokens": 1919443
+  }
+}

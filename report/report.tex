@@ -17,7 +17,7 @@
 \title{Scaling Laws for Decoder-Only Transformers on SVG Code}
 \author{Shreyas Sankpal\\NYU Tandon, CS-GY 6923 (Spring 2026)\\[4pt]
 \small\url{https://github.com/sankpal-shreyas/SVG-Code-Language-Models}}
-\date{May 2026}
+\date{May 1st, 2026}
 
 \begin{document}
 \maketitle
@@ -229,6 +229,9 @@ The corpus is not de-duplicated, and there is overlap between simplified font gl
 
 \section{Conclusion}
 This project trains five transformer language models on cleaned SVG code, fits a power law to the validation loss, compares SP and $\mu$P at proxy-tuned learning rates, and evaluates generated samples for XML validity. SP shows the LR-transfer failure that $\mu$P is supposed to fix, but $\mu$P does not cleanly fix it here and produces a broken readout at the largest width. The parameter exponent on the well-behaved part of the SP curve is $\alpha = 0.050 \pm 0.023$, similar to Kaplan's natural-language number. The whole pipeline (data prep, both LR sweeps, all $10$ scaling runs, and one warmstart extension) took about $12$ hours of GPU time on a single RTX 5080.
+
+\section*{Statement on AI usage}
+As permitted by the policy on AI discussion: I used Claude Opus 4.7 to help debug \texttt{mup} integration errors, find \texttt{lxml}'s recovery parser for repairing truncated SVG samples, and look up matplotlib and \texttt{tokenizers} APIs. The experimental design, the runs, the analysis, and the writing in this report are my own.
 
 \bibliographystyle{plainnat}
 \bibliography{refs}
